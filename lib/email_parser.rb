@@ -11,7 +11,7 @@ attr_accessor :csv_emails
      a.split(", ")
      a.chomp(",")
    end 
-   
+  .flatten.uniq 
  end 
 
 end 
