@@ -9,7 +9,9 @@ attr_accessor :csv_emails
  def parse 
    csv_emails.split.collect do |a|
      a.split(", ")
+   end 
    .flatten.uniq
+   
  end 
 
 end 
