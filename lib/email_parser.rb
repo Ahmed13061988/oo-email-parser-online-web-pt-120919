@@ -1,4 +1,4 @@
-class EmailAdressParser
+class EmailAddressParser
 
 attr_accessor :csv_emails
 
@@ -11,6 +11,6 @@ attr_accessor :csv_emails
  end 
 
 end 
-email = EmailAdressParser.new ("john@doe.com, person@somewhere.org")
+email = EmailAddressParser.new ("john@doe.com, person@somewhere.org")
 email.parse
 
