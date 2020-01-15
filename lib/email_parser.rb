@@ -8,7 +8,7 @@ attr_accessor :csv_emails
  
  def parse 
    csv_emails.split.collect do |a|
-     a.
+     a.split(", ")
    .flatten.uniq
  end 
 
