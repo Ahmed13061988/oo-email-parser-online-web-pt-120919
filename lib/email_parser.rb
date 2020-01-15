@@ -8,6 +8,7 @@ attr_accessor :csv_emails
  
  def parse 
    csv_emails.split(", ")
+   .fl
  end 
 
 end 
