@@ -11,4 +11,5 @@ attr_accessor :csv_emails
  end 
 
 end 
+email = EmailAdressParser.new ()
 
