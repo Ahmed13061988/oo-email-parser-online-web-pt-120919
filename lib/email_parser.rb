@@ -10,5 +10,5 @@ attr_accessor :csv_emails
    csv_emails.split(",")
  end 
 
-
+end 
 
