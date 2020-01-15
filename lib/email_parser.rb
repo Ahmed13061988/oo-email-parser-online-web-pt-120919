@@ -11,5 +11,6 @@ attr_accessor :csv_emails
  end 
 
 end 
-email = EmailAdressParser.new ()
+email = EmailAdressParser.new ("john@doe.com, person@somewhere.org")
+email.parse
 
