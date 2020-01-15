@@ -4,6 +4,10 @@ class EmailAdressParser
    @csv_emails = email
  end 
  
+ def parse (email)
+   email.split(",")
+  end 
+  
  
 
 
